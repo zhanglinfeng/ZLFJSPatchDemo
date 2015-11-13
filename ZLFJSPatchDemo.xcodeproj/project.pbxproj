@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D14F830B1BF498CC008385D6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14F830A1BF498CC008385D6 /* JavaScriptCore.framework */; };
 		D16E73461BB9223E00BA15AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73451BB9223E00BA15AB /* main.m */; };
 		D16E73491BB9223E00BA15AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73481BB9223E00BA15AB /* AppDelegate.m */; };
 		D16E734C1BB9223E00BA15AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E734B1BB9223E00BA15AB /* ViewController.m */; };
@@ -14,6 +15,13 @@
 		D16E73511BB9223E00BA15AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16E73501BB9223E00BA15AB /* Images.xcassets */; };
 		D16E73541BB9223E00BA15AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D16E73521BB9223E00BA15AB /* LaunchScreen.xib */; };
 		D16E73601BB9223E00BA15AB /* ZLFJSPatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E735F1BB9223E00BA15AB /* ZLFJSPatchDemoTests.m */; };
+		D16E73731BB92AEB00BA15AB /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73711BB92AEB00BA15AB /* JPEngine.m */; };
+		D16E73741BB92AEB00BA15AB /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = D16E73721BB92AEB00BA15AB /* JSPatch.js */; };
+		D16E73761BB92DD100BA15AB /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = D16E73751BB92DD100BA15AB /* demo.js */; };
+		D16E73791BB93B8D00BA15AB /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73781BB93B8D00BA15AB /* MainTableViewController.m */; };
+		D16E737C1BB940F000BA15AB /* ReplaceFunctionCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E737B1BB940F000BA15AB /* ReplaceFunctionCaseController.m */; };
+		D16E73821BB947DF00BA15AB /* BugDetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73811BB947DF00BA15AB /* BugDetailViewController2.m */; };
+		D16E73851BB947F400BA15AB /* BugDetailViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73841BB947F400BA15AB /* BugDetailViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D14F830A1BF498CC008385D6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		D16E73401BB9223E00BA15AB /* ZLFJSPatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLFJSPatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16E73441BB9223E00BA15AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D16E73451BB9223E00BA15AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,18 @@
 		D16E73591BB9223E00BA15AB /* ZLFJSPatchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLFJSPatchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16E735E1BB9223E00BA15AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D16E735F1BB9223E00BA15AB /* ZLFJSPatchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLFJSPatchDemoTests.m; sourceTree = "<group>"; };
+		D16E73701BB92AEB00BA15AB /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		D16E73711BB92AEB00BA15AB /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		D16E73721BB92AEB00BA15AB /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		D16E73751BB92DD100BA15AB /* demo.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = demo.js; sourceTree = "<group>"; };
+		D16E73771BB93B8D00BA15AB /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		D16E73781BB93B8D00BA15AB /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		D16E737A1BB940F000BA15AB /* ReplaceFunctionCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceFunctionCaseController.h; sourceTree = "<group>"; };
+		D16E737B1BB940F000BA15AB /* ReplaceFunctionCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceFunctionCaseController.m; sourceTree = "<group>"; };
+		D16E73801BB947DF00BA15AB /* BugDetailViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugDetailViewController2.h; sourceTree = "<group>"; };
+		D16E73811BB947DF00BA15AB /* BugDetailViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugDetailViewController2.m; sourceTree = "<group>"; };
+		D16E73831BB947F400BA15AB /* BugDetailViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugDetailViewController3.h; sourceTree = "<group>"; };
+		D16E73841BB947F400BA15AB /* BugDetailViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugDetailViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D14F830B1BF498CC008385D6 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 		D16E73371BB9223E00BA15AB = {
 			isa = PBXGroup;
 			children = (
+				D14F830A1BF498CC008385D6 /* JavaScriptCore.framework */,
 				D16E73421BB9223E00BA15AB /* ZLFJSPatchDemo */,
 				D16E735C1BB9223E00BA15AB /* ZLFJSPatchDemoTests */,
 				D16E73411BB9223E00BA15AB /* Products */,
@@ -81,6 +104,8 @@
 		D16E73421BB9223E00BA15AB /* ZLFJSPatchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D16E736F1BB92AEB00BA15AB /* JSPatch */,
+				D16E73751BB92DD100BA15AB /* demo.js */,
 				D16E73471BB9223E00BA15AB /* AppDelegate.h */,
 				D16E73481BB9223E00BA15AB /* AppDelegate.m */,
 				D16E734A1BB9223E00BA15AB /* ViewController.h */,
@@ -89,6 +114,14 @@
 				D16E73501BB9223E00BA15AB /* Images.xcassets */,
 				D16E73521BB9223E00BA15AB /* LaunchScreen.xib */,
 				D16E73431BB9223E00BA15AB /* Supporting Files */,
+				D16E73771BB93B8D00BA15AB /* MainTableViewController.h */,
+				D16E73781BB93B8D00BA15AB /* MainTableViewController.m */,
+				D16E737A1BB940F000BA15AB /* ReplaceFunctionCaseController.h */,
+				D16E737B1BB940F000BA15AB /* ReplaceFunctionCaseController.m */,
+				D16E73801BB947DF00BA15AB /* BugDetailViewController2.h */,
+				D16E73811BB947DF00BA15AB /* BugDetailViewController2.m */,
+				D16E73831BB947F400BA15AB /* BugDetailViewController3.h */,
+				D16E73841BB947F400BA15AB /* BugDetailViewController3.m */,
 			);
 			path = ZLFJSPatchDemo;
 			sourceTree = "<group>";
@@ -117,6 +150,16 @@
 				D16E735E1BB9223E00BA15AB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D16E736F1BB92AEB00BA15AB /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				D16E73701BB92AEB00BA15AB /* JPEngine.h */,
+				D16E73711BB92AEB00BA15AB /* JPEngine.m */,
+				D16E73721BB92AEB00BA15AB /* JSPatch.js */,
+			);
+			path = JSPatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16E73761BB92DD100BA15AB /* demo.js in Resources */,
 				D16E734F1BB9223E00BA15AB /* Main.storyboard in Resources */,
 				D16E73541BB9223E00BA15AB /* LaunchScreen.xib in Resources */,
+				D16E73741BB92AEB00BA15AB /* JSPatch.js in Resources */,
 				D16E73511BB9223E00BA15AB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16E73851BB947F400BA15AB /* BugDetailViewController3.m in Sources */,
 				D16E734C1BB9223E00BA15AB /* ViewController.m in Sources */,
+				D16E73731BB92AEB00BA15AB /* JPEngine.m in Sources */,
 				D16E73491BB9223E00BA15AB /* AppDelegate.m in Sources */,
+				D16E73791BB93B8D00BA15AB /* MainTableViewController.m in Sources */,
+				D16E737C1BB940F000BA15AB /* ReplaceFunctionCaseController.m in Sources */,
+				D16E73821BB947DF00BA15AB /* BugDetailViewController2.m in Sources */,
 				D16E73461BB9223E00BA15AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,7 +399,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ZLFJSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ZLFJSPatchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +478,7 @@
 				D16E73651BB9223E00BA15AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D16E73661BB9223E00BA15AB /* Build configuration list for PBXNativeTarget "ZLFJSPatchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +487,7 @@
 				D16E73681BB9223E00BA15AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
