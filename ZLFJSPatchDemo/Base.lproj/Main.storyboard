@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8oD-6H-qWc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8oD-6H-qWc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--热更新类型-->
@@ -46,7 +46,7 @@
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <segue destination="u8Q-zN-mtS" kind="show" identifier="toReplaceFunctionCaseController" id="X8O-zh-Fz1"/>
-                        <segue destination="bv0-nW-l0n" kind="show" identifier="toBugDetail2" id="QoJ-97-94M"/>
+                        <segue destination="bv0-nW-l0n" kind="show" identifier="toNewFunctionController" id="QoJ-97-94M"/>
                         <segue destination="c7R-ha-gEa" kind="show" identifier="toBugDetail3" id="Qs4-so-P5e"/>
                     </connections>
                 </tableViewController>
@@ -54,7 +54,7 @@
             </objects>
             <point key="canvasLocation" x="411" y="307"/>
         </scene>
-        <!--jspatch热修复-->
+        <!--jspatch覆盖原方法-->
         <scene sceneID="Jav-vp-JZG">
             <objects>
                 <viewController id="u8Q-zN-mtS" customClass="ReplaceFunctionCaseController" sceneMemberID="viewController">
@@ -83,7 +83,7 @@
                             <constraint firstItem="Av5-2p-Lex" firstAttribute="leading" secondItem="akA-Oe-K4L" secondAttribute="leading" constant="16" id="jVH-r0-qRm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="jspatch热修复" id="J08-XS-NUm"/>
+                    <navigationItem key="navigationItem" title="jspatch覆盖原方法" id="J08-XS-NUm"/>
                     <connections>
                         <outlet property="lbDesc" destination="Av5-2p-Lex" id="uKZ-MF-xn8"/>
                     </connections>
@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="50" y="1054"/>
         </scene>
-        <!--Bug Detail View Controller2-->
+        <!--js新增方法-->
         <scene sceneID="kS7-oe-UyL">
             <objects>
-                <viewController id="bv0-nW-l0n" customClass="BugDetailViewController2" sceneMemberID="viewController">
+                <viewController id="bv0-nW-l0n" customClass="NewFunctionController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9F3-ck-fcx"/>
                         <viewControllerLayoutGuide type="bottom" id="GC1-wq-7Vi"/>
@@ -105,6 +105,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="js新增方法" id="9uh-Q5-CwQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rFv-xE-ef0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

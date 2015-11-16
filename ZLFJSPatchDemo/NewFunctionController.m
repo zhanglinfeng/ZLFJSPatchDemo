@@ -1,22 +1,23 @@
 //
-//  BugDetailViewController2.m
+//  NewFunctionController.m
 //  ZLFJSPatchDemo
 //
 //  Created by 张林峰 on 15/9/28.
 //  Copyright (c) 2015年 张林峰. All rights reserved.
 //
 
-#import "BugDetailViewController2.h"
+#import "NewFunctionController.h"
 
-@interface BugDetailViewController2 ()
+@interface NewFunctionController ()
 
 @end
 
-@implementation BugDetailViewController2
+@implementation NewFunctionController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {

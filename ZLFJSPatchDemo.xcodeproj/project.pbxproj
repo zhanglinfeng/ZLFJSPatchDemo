@@ -20,8 +20,7 @@
 		D16E73761BB92DD100BA15AB /* demo.js in Resources */ = {isa = PBXBuildFile; fileRef = D16E73751BB92DD100BA15AB /* demo.js */; };
 		D16E73791BB93B8D00BA15AB /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73781BB93B8D00BA15AB /* MainTableViewController.m */; };
 		D16E737C1BB940F000BA15AB /* ReplaceFunctionCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E737B1BB940F000BA15AB /* ReplaceFunctionCaseController.m */; };
-		D16E73821BB947DF00BA15AB /* BugDetailViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73811BB947DF00BA15AB /* BugDetailViewController2.m */; };
-		D16E73851BB947F400BA15AB /* BugDetailViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73841BB947F400BA15AB /* BugDetailViewController3.m */; };
+		D16E73821BB947DF00BA15AB /* NewFunctionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16E73811BB947DF00BA15AB /* NewFunctionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +56,8 @@
 		D16E73781BB93B8D00BA15AB /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		D16E737A1BB940F000BA15AB /* ReplaceFunctionCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceFunctionCaseController.h; sourceTree = "<group>"; };
 		D16E737B1BB940F000BA15AB /* ReplaceFunctionCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceFunctionCaseController.m; sourceTree = "<group>"; };
-		D16E73801BB947DF00BA15AB /* BugDetailViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugDetailViewController2.h; sourceTree = "<group>"; };
-		D16E73811BB947DF00BA15AB /* BugDetailViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugDetailViewController2.m; sourceTree = "<group>"; };
-		D16E73831BB947F400BA15AB /* BugDetailViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugDetailViewController3.h; sourceTree = "<group>"; };
-		D16E73841BB947F400BA15AB /* BugDetailViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugDetailViewController3.m; sourceTree = "<group>"; };
+		D16E73801BB947DF00BA15AB /* NewFunctionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFunctionController.h; sourceTree = "<group>"; };
+		D16E73811BB947DF00BA15AB /* NewFunctionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFunctionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +115,8 @@
 				D16E73781BB93B8D00BA15AB /* MainTableViewController.m */,
 				D16E737A1BB940F000BA15AB /* ReplaceFunctionCaseController.h */,
 				D16E737B1BB940F000BA15AB /* ReplaceFunctionCaseController.m */,
-				D16E73801BB947DF00BA15AB /* BugDetailViewController2.h */,
-				D16E73811BB947DF00BA15AB /* BugDetailViewController2.m */,
-				D16E73831BB947F400BA15AB /* BugDetailViewController3.h */,
-				D16E73841BB947F400BA15AB /* BugDetailViewController3.m */,
+				D16E73801BB947DF00BA15AB /* NewFunctionController.h */,
+				D16E73811BB947DF00BA15AB /* NewFunctionController.m */,
 			);
 			path = ZLFJSPatchDemo;
 			sourceTree = "<group>";
@@ -264,13 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16E73851BB947F400BA15AB /* BugDetailViewController3.m in Sources */,
 				D16E734C1BB9223E00BA15AB /* ViewController.m in Sources */,
 				D16E73731BB92AEB00BA15AB /* JPEngine.m in Sources */,
 				D16E73491BB9223E00BA15AB /* AppDelegate.m in Sources */,
 				D16E73791BB93B8D00BA15AB /* MainTableViewController.m in Sources */,
 				D16E737C1BB940F000BA15AB /* ReplaceFunctionCaseController.m in Sources */,
-				D16E73821BB947DF00BA15AB /* BugDetailViewController2.m in Sources */,
+				D16E73821BB947DF00BA15AB /* NewFunctionController.m in Sources */,
 				D16E73461BB9223E00BA15AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

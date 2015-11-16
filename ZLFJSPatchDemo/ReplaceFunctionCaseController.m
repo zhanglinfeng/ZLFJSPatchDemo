@@ -21,30 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self creatUI];
+    [self creatReplaceFunctionDemo];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void)creatUI {
-    switch (_bugType) {
-        case BugType_ReplaceFunction:
-            [self creatReplaceFunctionDemo];
-            break;
-        case BugType_AddFunction:
-            [self creatAddFunctionDemo];
-            break;
-            
-        case BugType_AddController:
-            [self creatAddController];
-            break;
-            
-        default:
-            break;
-    }
 }
 
 - (void)creatReplaceFunctionDemo {

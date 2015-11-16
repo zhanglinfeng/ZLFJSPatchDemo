@@ -8,6 +8,7 @@
 
 #import "MainTableViewController.h"
 #import "ReplaceFunctionCaseController.h"
+#import "NewFunctionController.h"
 
 @interface MainTableViewController ()
 
@@ -57,8 +58,11 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    [self performSegueWithIdentifier:@"toReplaceFunctionCaseController" sender:indexPath];
+    if (indexPath.row == 0) {
+        [self performSegueWithIdentifier:@"toReplaceFunctionCaseController" sender:indexPath];
+    } else if (indexPath.row == 1) {
+        [self performSegueWithIdentifier:@"toNewFunctionController" sender:indexPath];
+    }
 }
 
 
@@ -68,10 +72,6 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    if ([segue.identifier isEqualToString:@"toReplaceFunctionCaseController"]) {
-        ReplaceFunctionCaseController *vc = segue.destinationViewController;
-        vc.bugType = ((NSIndexPath *)sender).row;
-    }
 }
 
 

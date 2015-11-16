@@ -1,5 +1,5 @@
 //
-//  BugDetailViewController2.h
+//  NewFunctionController.h
 //  ZLFJSPatchDemo
 //
 //  Created by 张林峰 on 15/9/28.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BugDetailViewController2 : UIViewController
+@interface NewFunctionController : UIViewController
 
 @end
